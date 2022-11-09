@@ -1,0 +1,302 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4d69;
+}
+.button{
+    
+  
+
+}
+
+h1{
+    font-family:"Montserrat";
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 84px;
+    padding-top: 14%;
+}
+.container-fluid{
+    padding: 3% 15% 9%;
+}
+
+/* navbar */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+    padding-left: 6%;
+}
+.paw-icon{
+    width: 10%;
+    position: absolute;
+    right: 93%;
+
+}
+.title-image{
+    width: 56%;
+    transform: rotate(25deg);
+    position: absolute; 
+    right: 26%;
+    top: 15%;
+
+}
+.title-image-container{
+    position: relative;
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+    position: relative; 
+
+
+}
+.feature-icon{
+    color: #ee8072;
+}
+h3{
+    padding: 5%;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+p{
+    color: #8f8f8f;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 100;
+}
+.feature-row{
+    padding: 4.5%;
+}
+
+/* testimonial */
+
+#testimonials{
+    background-color: #ee8072;
+    text-align: center;
+    
+    color: white;
+}
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: white;
+
+}
+.testimonial-img{
+    font-size: 10%;
+    border-radius: 100%;
+    width: 10%;
+    margin: 3%;
+}
+.carousel-item{
+    padding: 7% 15% 3%;
+
+}
+em{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+/* press */
+#press{
+    background-color: #ee8072;
+    padding-bottom: 5%;
+    text-align: center;
+
+}
+.pressimg{
+    width: 15%;
+    margin: 20px 20px 50px;
+
+    
+}
+.press-heading{
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 2%;
+
+}
+/* pricing */
+#pricing{
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+.container{
+    padding: 3% ;
+}
+.pricing-heading{
+color: #212529;
+font-weight: 700;
+font-size: 56px ;
+line-height: 84px;
+padding-top: 30px;
+}
+.pricing-column{
+    padding: 1% 2%;
+}
+.card-price{
+    color: #212529;
+}
+/* cta */
+#cta{
+    background-color: #ff4d69;
+    text-align: center;
+    padding: 7% 15%;
+
+
+}
+.cta-text{
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 84px;
+    color: white;
+
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.social-icon{
+    padding: 3%;
+
+}
+
+
+
+ @media (max-width:991px){
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+    #title{
+        text-align: center;
+
+
+
+    }
+    .navbar-toggler{
+        height: 60px;
+        width: 100px;
+        position: relative;
+        left: 5%;
+    }
+    h1{
+        font-size: 87px;
+        line-height: 94px;
+        padding-bottom: 5%;
+    }
+    .paw-icon{
+        display: none;    }
+    .navbar-brand{
+        font-size: 84px;
+        position: relative;
+        left: 25%;
+        padding-bottom: 7%;
+        
+
+    }
+    .nav-item{
+        font-size: 50px;
+        
+    }
+    #features{
+        padding: 5% ;
+        text-align: center;
+    }
+    h3{
+        font-size: 65px;
+    }
+    p{
+        font-size: 40px;
+        line-height: 100%;
+    }
+    #testimonials{
+        background-color: #ee8072;
+        text-align: center;
+        
+        color: white;
+    }
+    h2{
+        font-size: 68px;
+        line-height: 84px;
+        color: white;
+    
+    }
+    .testimonial-img{
+        border-radius: 100%;
+        width: 20%;
+        margin: 3%;
+    }
+    em{
+        font-size: 205%;
+    }
+    .carousel-item{
+        padding: 7% 4% 3%;
+
+    
+    }
+    .carousel-control-prev{
+        height: 150%;
+    }
+    .carousel-control-next{
+        height: 150%;
+    }
+    .press-heading{
+        color: white;
+        font-weight: 700;
+        font-size: 58px;
+        padding: 2%;
+    }
+    .pressimg{
+        width: 20%;
+        margin: 20px 30px 20px;
+    } 
+    .container{
+        padding: 1% 3%;
+    }
+    .pricing-column {
+        padding-bottom: 10%;
+    }
+    .pricing-column p{
+        line-height: 155%;
+    }
+    .btn{
+        height: 100px;
+        font-size: 37px;
+    }
+    #cta{
+        padding: 7%;
+    }
+    .cta-text{
+        font-size: 69px;
+    }
+   
+    }
+
+
+
+ }
+
+
+
